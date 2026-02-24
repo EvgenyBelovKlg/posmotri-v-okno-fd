@@ -14,3 +14,7 @@
   text-align: center;
   text-transform: uppercase;
 }
+
+.search-form__label:focus-visible {
+  outline: 1px solid white;
+}
