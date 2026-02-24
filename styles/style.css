@@ -16,6 +16,9 @@ html {
   font-family: "Fira Sans Condensed", sans-serif;
   font-size: 18px;
   background-color: #1b1919;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 h1,
@@ -58,12 +61,6 @@ ol {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
   white-space: nowrap;
-}
-
-.page {
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .content {
@@ -127,10 +124,6 @@ ol {
   object-position: center;
 }
 
-.content__video-card-description-container {
-  flex-grow: 1;
-}
-
 .search-form__fieldset-title {
   font-weight: 400;
   font-size: 18px;
@@ -177,10 +170,6 @@ ol {
   outline: 1px solid white;
 }
 
-.content__video-card-description-container {
-  width: 196px;
-}
-
 .content__list-item {
   padding-left: 3px;
   padding-right: 3px;
@@ -203,6 +192,8 @@ ol {
   -webkit-box-orient: vertical;
   overflow: hidden;
   text-overflow: ellipsis;
+  width: 196px;
+  flex-grow: 1;
 }
 
 .search-form__checkbox-list {
